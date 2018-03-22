@@ -10,6 +10,6 @@ export default () => dispatch => {
             dispatch({ type: FETCH_FRIENDS_SUCCESS, friends: data });
         })
         .catch(err => {
-            dispatch({ type: FETECH_FRIENDS_ERROR });
+            dispatch({ type: FETCH_FRIENDS_ERROR });
         })
 }
